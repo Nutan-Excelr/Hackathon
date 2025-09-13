@@ -13,27 +13,34 @@ pip install SpeechRecognition
 pip install PyAudio
 On some systems, installing PyAudio may require additional setup:
 
-Windows: Use pip install pipwin && pipwin install pyaudio
-Linux: sudo apt-get install portaudio19-dev python3-pyaudio
+Windows:
+
+bash
+pip install pipwin
+pipwin install pyaudio
+
+Linux:
+
+bash
+sudo apt-get install portaudio19-dev python3-pyaudio
 
 Project Structure
 Code
-voice_chat/
+Hackathon/
 ├── main.py         # Main application logic
 ├── style.py        # Styling definitions (colors, fonts, emojis)
-🚀 How to Run
+
+How to Run
 Clone the repository:
-
 bash
-git clone https://github.com/your-username/voice_chat_app.git
-cd voice_chat_app
+git clone https://github.com/Nutan-Excelr/Hackathon.git
+cd Hackathon
 Run the app:
-
 bash
 python main.py
 
 Customization
-You can easily modify the look and feel by editing style.py:
-Change colors, fonts, emojis
-Add new UI elements (buttons, menus)
-Integrate additional voice models or export features
+1.You can easily modify the look and feel by editing style.py:
+2.Change colors, fonts, emojis
+3.Add new UI elements (buttons, menus)
+4.Integrate additional voice models or export features
