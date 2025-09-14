@@ -1,46 +1,27 @@
-Features
-1.Real-time voice-to-text transcription using Google Speech Recognition
-2.Chat-style UI with role-based color coding (You/System)
-3.Modular styling via style.py for easy theme customization
-4.Responsive layout with header, chat area, and status bar
-5.Non-blocking speech recognition using threading
+🎙️ Voice to Text Chat
+A simple Voice-to-Text Chat Application built using Python, Tkinter for GUI, and SpeechRecognition for converting speech into text.
+The app allows users to speak through their microphone, and the recognized text is displayed in a chat-like interface.
 
-Requirements
-Make sure you have Python 3.7+ installed. Then install the required packages:
+🚀 Features
+1🎤 Real-time speech recognition using speech_recognition
+📝 Interactive chat-style UI with system and user messages
+🎧 Automatic handling of listening, recognition, and errors
+🎨 Separate style.py module for easy customization of colors, fonts, and emojis
+✅ Runs smoothly with multithreading for non-blocking UI
 
-bash
-pip install SpeechRecognition
-pip install PyAudio
-On some systems, installing PyAudio may require additional setup:
+🛠️ Tech Stack
+Python 3
+Tkinter (GUI framework)
+SpeechRecognition (speech-to-text conversion)
+Pyaudio / Microphone Access
+Threading (to run recognition in the background)
 
-Windows:
+▶️ How to Run
+Clone this repository or download the project files.
+Install dependencies: pip install -r requirements.txt (Create a requirements.txt with dependencies: SpeechRecognition, pyaudio)
+Run the app: python main.py
 
-bash
-pip install pipwin
-pipwin install pyaudio
-
-Linux:
-
-bash
-sudo apt-get install portaudio19-dev python3-pyaudio
-
-Project Structure
-Code
-Hackathon/
-├── main.py         # Main application logic
-├── style.py        # Styling definitions (colors, fonts, emojis)
-
-How to Run
-Clone the repository:
-bash
-git clone https://github.com/Nutan-Excelr/Hackathon.git
-cd Hackathon
-Run the app:
-bash
-python main.py
-
-Customization
-1.You can easily modify the look and feel by editing style.py:
-2.Change colors, fonts, emojis
-3.Add new UI elements (buttons, menus)
-4.Integrate additional voice models or export features
+📂 Project Structure
+main.py # Main application file
+style.py # Styling configuration (colors, fonts, emojis)
+README.md # Project documentation
